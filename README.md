@@ -6,7 +6,7 @@ allowing users to visualize and analyze protein structures with updated secondar
 
 1- create the .pml file
 
-'bash python stride-to-pml-vXX.py NameofPdb.pdb'
+'python stride-to-pml-vXX.py NameofPdb.pdb'
 
 This will produce two files::
       1- Stride.update_ss.pml : PyMOL script to update the protein's secondary structure
@@ -14,11 +14,12 @@ This will produce two files::
 
 2- launch pymol
 
-'bash pymol NameofPdb.pdb Stride.update_ss.pml'
+'pymol NameofPdb.pdb Stride.update_ss.pml'
  
 ## Requirements:
 PyMOL: A molecular visualization system. It can be obtained from the official PyMOL website.
 (Schrödinger, LLC 2015)
+
 STRIDE: A tool for protein secondary structure assignment from atomic coordinates.
 Citation:
 Heinig, M., Frishman, D. (2004). STRIDE: a Web server for secondary structure assignment from known atomic coordinates of proteins. Nucl. Acids Res. , 32, W500-2
