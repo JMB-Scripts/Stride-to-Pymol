@@ -12,7 +12,7 @@
 #       2- NameofPdb.stride : STRIDE's output for further analysis.
 #
 # 2- launch pymol
-# pymol load NameofPdb.pdb,stride Stride.update_ss.pml
+# pymol NameofPdb.pdb Stride.update_ss.pml
 # 
 # Requirements:
 #
