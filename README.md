@@ -1,4 +1,4 @@
-## Stride to pml 
+## Stride to Pymol 
 This script enables the conversion of STRIDE's secondary structure assignments into a PyMOL-readable format, 
 allowing users to visualize and analyze protein structures with updated secondary structure information
 #
