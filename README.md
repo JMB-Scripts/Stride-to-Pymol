@@ -5,17 +5,17 @@ allowing users to visualize and analyze protein structures with updated secondar
 ## Usage:  
 
 1- create the .pml file
-
-'python stride-to-pml-vXX.py NameofPdb.pdb'
-
+```bash
+python stride-to-pml-vXX.py NameofPdb.pdb
+```
 This will produce two files::
       1- Stride.update_ss.pml : PyMOL script to update the protein's secondary structure
       2- NameofPdb.stride : STRIDE's output for further analysis.
 
 2- launch pymol
-
-'pymol NameofPdb.pdb Stride.update_ss.pml'
- 
+```bash
+pymol NameofPdb.pdb Stride.update_ss.pml
+ ```
 ## Requirements:
 PyMOL: A molecular visualization system. It can be obtained from the official PyMOL website.
 (Schrödinger, LLC 2015)
